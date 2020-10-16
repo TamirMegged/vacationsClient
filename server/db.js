@@ -8,6 +8,8 @@ const db = mysql.createPool({
     // insecureAuth: true
 })
 
+//mysql --host=us-cdbr-east-02.cleardb.com --user=b360f36862cedc --password=539c17bb --reconnect heroku_693f8cf2c9f86d5
+
 // db.connect(err => {
 //     if (err) {
 //         console.log(err);
