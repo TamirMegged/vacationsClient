@@ -11,11 +11,8 @@ app.use("/users", require('./routes/users'));
 app.use("/vacations", require('./routes/vacations'));
 app.use("/likes", require('./routes/likes'));
 
-app.get("/", (req, res) => {
-    res.send(`Hello? (Hello? Hello? Hello?)
-    Is there anybody in there?
-    Just nod if you can hear me.
-    Is there anyone home?`);
-})
+app.get("/*", (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 app.listen(port, () => console.log(`up and running on ${port}`));
