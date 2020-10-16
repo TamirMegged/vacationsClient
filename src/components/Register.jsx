@@ -14,7 +14,7 @@ export default function Register({ history }) {
     const handleRegister = async e => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:1000/users/register", {
+            let res = await fetch("https://tamirflyaway.herokuapp.com/users/register", {
                 method: "POST",
                 headers: { "content-type": "application/json" },
                 body: JSON.stringify({ first_name, last_name, username, password })

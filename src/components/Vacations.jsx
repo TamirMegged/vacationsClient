@@ -21,7 +21,7 @@ export default function Vacations({ isSearchMode }) {
             if (user.role === "user") {
                 let likedVacations = [];
                 (async () => {
-                    let res = await fetch(`http://localhost:1000/likes/liked/${user.id}`, {
+                    let res = await fetch(`https://tamirflyaway.herokuapp.com/likes/liked/${user.id}`, {
                         method: "GET",
                         headers: { "content-type": "application/json", "Authorization": localStorage.token }
                     });
@@ -35,7 +35,7 @@ export default function Vacations({ isSearchMode }) {
                     }
                 })();
                 const loadVacations = async () => {
-                    let res = await fetch(`http://localhost:1000/likes/rest/${user.id}`, {
+                    let res = await fetch(`https://tamirflyaway.herokuapp.com/likes/rest/${user.id}`, {
                         method: "GET",
                         headers: { "content-type": "application/json", "Authorization": localStorage.token }
                     });
@@ -48,7 +48,7 @@ export default function Vacations({ isSearchMode }) {
                 }
             } else {
                 (async () => {
-                    let res = await fetch("http://localhost:1000/vacations");
+                    let res = await fetch("https://tamirflyaway.herokuapp.com/vacations");
                     let data = await res.json();
                     dispatch({ type: "LOAD", payload: data });
                     setIsEffected(true);

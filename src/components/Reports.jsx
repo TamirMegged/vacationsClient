@@ -7,7 +7,7 @@ export default function Reports() {
 
     useEffect(() => {
         (async () => {
-            let res = await fetch("http://localhost:1000/vacations");
+            let res = await fetch("https://tamirflyaway.herokuapp.com/vacations");
             let data = await res.json();
             setVacations(data.filter(vac => vac.followers > 0));
         })();

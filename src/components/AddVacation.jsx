@@ -23,7 +23,7 @@ export default function AddVacation({ modalOpen, setModalOpen }) {
         if (destination && image && start_date && end_date && description && price) {
             if (start_date < end_date) {
                 try {
-                    let res = await fetch("http://localhost:1000/vacations/add", {
+                    let res = await fetch("https://tamirflyaway.herokuapp.com/vacations/add", {
                         method: "POST",
                         headers: { "content-type": "application/json", "Authorization": localStorage.token },
                         body: JSON.stringify({ destination, image, start_date, end_date, description, price })

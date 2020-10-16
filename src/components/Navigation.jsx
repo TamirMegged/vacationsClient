@@ -109,7 +109,7 @@ export default function Navigation({ setSearchMode }) {
             try {
                 setSearchMode(true);
                 history.push("/home");
-                let res = await fetch(`http://localhost:1000/vacations/search`, {
+                let res = await fetch(`https://tamirflyaway.herokuapp.com/vacations/search`, {
                     method: "PUT",
                     headers: { "content-type": "application/json", "Authorization": localStorage.token },
                     body: JSON.stringify({ searchContent, start_limit, end_limit })

@@ -32,7 +32,7 @@ export default function EditVacation({ modalOpen, setModalOpen, vacation }) {
         if (destination && image && start_date && end_date && description && price) {
             if (start_date < end_date) {
                 try {
-                    let res = await fetch(`http://localhost:1000/vacations/${vacation.id}`, {
+                    let res = await fetch(`https://tamirflyaway.herokuapp.com/vacations/${vacation.id}`, {
                         method: "PUT",
                         headers: { "content-type": "application/json", "Authorization": localStorage.token },
                         body: JSON.stringify({ destination, image, start_date, end_date, description, price })

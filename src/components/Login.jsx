@@ -14,7 +14,7 @@ export default function Login({ history }) {
     const handleLogin = async e => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:1000/users/login", {
+            let res = await fetch("https://tamirflyaway.herokuapp.com/users/login", {
                 method: "POST",
                 headers: { "content-type": "application/json" },
                 body: JSON.stringify({ username, password })

@@ -36,7 +36,7 @@ export default function Vacation({ vacation }) {
     const [editOpen, setEditOpen] = useState(false);
 
     const deleteVacation = async () => {
-        let res = await fetch(`http://localhost:1000/vacations/${id}`, {
+        let res = await fetch(`https://tamirflyaway.herokuapp.com/vacations/${id}`, {
             method: "DELETE",
             headers: { "Authorization": localStorage.token }
         });
@@ -51,7 +51,7 @@ export default function Vacation({ vacation }) {
 
     const handleLike = async () => {
         try {
-            let res = await fetch('http://localhost:1000/likes', {
+            let res = await fetch('https://tamirflyaway.herokuapp.com/likes', {
                 method: "POST",
                 headers: { "content-type": "application/json", "Authorization": localStorage.token },
                 body: JSON.stringify({ userID: user.id, vacationID: id })
@@ -71,7 +71,7 @@ export default function Vacation({ vacation }) {
 
     const handleUnlike = async () => {
         try {
-            let res = await fetch('http://localhost:1000/likes', {
+            let res = await fetch('https://tamirflyaway.herokuapp.com/likes', {
                 method: "DELETE",
                 headers: { "content-type": "application/json", "Authorization": localStorage.token },
                 body: JSON.stringify({ userID: user.id, vacationID: id })

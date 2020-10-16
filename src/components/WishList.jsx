@@ -12,7 +12,7 @@ export default function WishList() {
 
     useEffect(() => {
         (async () => {
-            let res = await fetch(`http://localhost:1000/likes/liked/${user.id}`, {
+            let res = await fetch(`https://tamirflyaway.herokuapp.com/likes/liked/${user.id}`, {
                 method: "GET",
                 headers: { "content-type": "application/json", "Authorization": localStorage.token }
             });
