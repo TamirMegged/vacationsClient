@@ -1,0 +1,218 @@
+[
+    {
+        "destination": "Bora Bora",
+        "description": "A week in the most beautiful place in our planet! A volcano surrounded by jungles, white sand and turquoise water.",
+        "image": "https://s1.it.atcdn.net/wp-content/uploads/2013/08/FPO_BOR_100.jpg",
+        "start_date": "2021-06-21T21:00:00.000Z",
+        "end_date": "2021-06-28T21:00:00.000Z",
+        "price": 2500,
+        "followers": 4
+    },
+    {
+        "destination": "Paris",
+        "description": "Five days in the most romantic city in the world. With the Eiffel Tower, the beautiful european buildings and the perfect sunsets.",
+        "image": "https://blog.parispass.com/wp-content/uploads/2016/10/paris-in-the-autumn-1000x380.jpg",
+        "start_date": "2020-10-18T21:00:00.000Z",
+        "end_date": "2020-10-22T21:00:00.000Z",
+        "price": 700,
+        "followers": 5
+    },
+    {
+        "destination": "Barcelona",
+        "description": "Four days in Gaudi's city. Beautiful and crazy buildings, La Rambla, long beaches and great night life in the capital of Catalonia.",
+        "image": "https://students.edcc.edu/studyabroad/images/barca.jpg",
+        "start_date": "2021-08-27T21:00:00.000Z",
+        "end_date": "2021-09-02T21:00:00.000Z",
+        "price": 640,
+        "followers": 3
+    },
+    {
+        "destination": "Maldives",
+        "description": "Love the sea? Join us for 9 magical days of diving in the Maldives where you can see sharks, sea turtles, rays and many colorful kinds of fish.",
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Whale-shark-enhanced_20180918113409.jpg",
+        "start_date": "2021-04-18T21:00:00.000Z",
+        "end_date": "2021-04-26T21:00:00.000Z",
+        "price": 2100,
+        "followers": 5
+    },
+    {
+        "destination": "Tuscany",
+        "description": "A journey in the hills and valleys of the region of wine and romance in Italy. Visit Firenze, Siena, the villages, and of course the Pisa Tower.",
+        "image": "https://i.ytimg.com/vi/2ojxjxflGWU/maxresdefault.jpg",
+        "start_date": "2021-06-26T21:00:00.000Z",
+        "end_date": "2021-06-30T21:00:00.000Z",
+        "price": 580,
+        "followers": 4
+    },
+    {
+        "destination": "Iceland",
+        "description": "Travel around the island of ice. The place was discovered by the vikings, yet not many humans have stepped on it. Come and see the mighty nature, black beaches, waterfalls and glaciers.",
+        "image": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/01d0ebb606a2065f0ecc8a3112ec85e67d9b2005/big-69cd90f23b17d410f24ca2af3fb95840.jpg",
+        "start_date": "2021-07-01T21:00:00.000Z",
+        "end_date": "2021-07-15T21:00:00.000Z",
+        "price": 1830,
+        "followers": 3
+    },
+    {
+        "destination": "London",
+        "description": "Five days in the beautiful streets of London, go to football games or to the famous musical of the city. Visit the Big Ben, the London-Eye and Oxford St.",
+        "image": "https://www.visitbritainshop.com/australia/~/media/images/subcategory/london-passes.ashx",
+        "start_date": "2021-02-15T22:00:00.000Z",
+        "end_date": "2021-02-18T22:00:00.000Z",
+        "price": 640,
+        "followers": 2
+    },
+    {
+        "destination": "Venice",
+        "description": "The magical city on water, built with a net of canals and no cars at all. Visit the St. Mark Square and the colorful islands of Burano and Murano.",
+        "image": "https://i.pinimg.com/originals/14/04/74/140474c925616bc5d70c8a8effe0d1eb.jpg",
+        "start_date": "2021-06-17T21:00:00.000Z",
+        "end_date": "2021-02-21T22:00:00.000Z",
+        "price": 640,
+        "followers": 3
+    },
+    {
+        "destination": "Tanzania",
+        "description": "A week in the wild safari of the Serengeti in Tanzania. Guided tour on wild animals' track: lions, leopards, elephants, giraffes and many more.",
+        "image": "https://cdn.tourradar.com/s3/tour/1500x800/130538_341f6580.jpg",
+        "start_date": "2021-04-13T21:00:00.000Z",
+        "end_date": "2021-04-20T21:00:00.000Z",
+        "price": 640,
+        "followers": 3
+    },
+    {
+        "destination": "New York",
+        "description": "Live in a movie for a week at the Big Apple. Visit the Empire State, Statue of Liberty, Central Park, Times Square and enjoy the night life of \"The city that never sleeps.\" ",
+        "image": "https://www.gannett-cdn.com/media/2018/12/15/USATODAY/usatsports/MotleyFool-TMOT-657f0436-21e9af86.jpg",
+        "start_date": "2021-06-29T21:00:00.000Z",
+        "end_date": "2021-07-06T21:00:00.000Z",
+        "price": 640,
+        "followers": 3
+    },
+    {
+        "destination": "Thailand",
+        "description": "Torquese water, white beaches, many islands, parties and fruites everywhere. Discover Thailand from Chang Mai in the north, through Bangkok, to Krabi's islands.",
+        "image": "https://pullman.accor.com/destinations/country/thailand-1400x788-1.jpg",
+        "start_date": "2021-12-03T22:00:00.000Z",
+        "end_date": "2021-12-16T22:00:00.000Z",
+        "price": 1450,
+        "followers": 3
+    },
+    {
+        "destination": "Berlin",
+        "description": "The city is full with historic sites and museums standing next to the modern skyscrapers. But, the city is also famous for its' great restaurant and night clubs for those who likes to party.",
+        "image": "https://www.berlin-stadtfuehrung.de/_media/img/large/berlin-city-tour-brandenburger-tor-2-2-2-2-2-2.jpg",
+        "start_date": "2021-07-13T21:00:00.000Z",
+        "end_date": "2021-07-16T21:00:00.000Z",
+        "price": 640,
+        "followers": 1
+    },
+    {
+        "destination": "Brazil",
+        "description": "Carnaval, endless beaches, great football and colors everywhere! Visit Rio de Janero and Sau Paulo, the Amazonas and the Iguazu falls.",
+        "image": "https://www.ncl.com/sites/default/files/881-RIO%20DE%20JANEIRO-STAR7RIOBUZILHSTSPDPBUE.jpg",
+        "start_date": "2021-02-06T22:00:00.000Z",
+        "end_date": "2021-02-20T22:00:00.000Z",
+        "price": 2000,
+        "followers": 1
+    },
+    {
+        "destination": "Santorini",
+        "description": "The fancy hotels, white houses, beautiful beaches, deep blue water and the volcano island view. What is there not to like in Santorini.",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61xuseXvAUL._AC_SL1100_.jpg",
+        "start_date": "2021-09-01T21:00:00.000Z",
+        "end_date": "2021-09-08T21:00:00.000Z",
+        "price": 850,
+        "followers": 3
+    },
+    {
+        "destination": "Egypt",
+        "description": "The Land of Pharaohs. Visit the Pyramids, one of the world wonders, the cities Cairo, Alexandria and enjoy the amazing beaches in Sinai!",
+        "image": "https://images.alphacoders.com/175/thumb-1920-175551.jpg",
+        "start_date": "2021-10-06T21:00:00.000Z",
+        "end_date": "2021-10-13T21:00:00.000Z",
+        "price": 400,
+        "followers": 2
+    },
+    {
+        "destination": "Ibiza",
+        "description": "Everyone have heard about the crazy night life of Ibiza! DJs and tourists are coming from all over the world to party on the spanish island.",
+        "image": "https://miro.medium.com/max/960/1*vqGUXlIIO1evgoP2IAra3g.jpeg",
+        "start_date": "2021-08-03T21:00:00.000Z",
+        "end_date": "2021-08-10T21:00:00.000Z",
+        "price": 670,
+        "followers": 1
+    },
+    {
+        "destination": "Zakynthos",
+        "description": "The greek island of Zakynthos is known for its good night clubs, the Navaggio Beach (also known as the Shipwreck) and the greek food.",
+        "image": "https://www.exploremediterranean.com/wp-content/uploads/Greece-Zakyntos-island-Navagio-Beach-1.jpg",
+        "start_date": "2021-07-17T21:00:00.000Z",
+        "end_date": "2021-07-24T21:00:00.000Z",
+        "price": 390,
+        "followers": 1
+    },
+    {
+        "destination": "Belgium",
+        "description": "Small things come in small packages. the beautiful city of Brussels, \"Venice of the north\" - Bruges, the night life of Liege and the mysterious Ardenes region",
+        "image": "https://www.iicom.org/wp-content/uploads/Brussels-TMF-2019-1920x1080.jpg",
+        "start_date": "2021-08-08T21:00:00.000Z",
+        "end_date": "2021-08-14T21:00:00.000Z",
+        "price": 540,
+        "followers": 3
+    },
+    {
+        "destination": "Amsterdam",
+        "description": "The famous capital of the Netherlands. Beautiful streets and squares in a net of canals. Enjoy the city's young vibes along the historic buildings.",
+        "image": "https://c4.wallpaperflare.com/wallpaper/811/217/233/amsterdam-canal-sunset-houses-wallpaper-preview.jpg",
+        "start_date": "2021-07-20T21:00:00.000Z",
+        "end_date": "2021-07-23T21:00:00.000Z",
+        "price": 640,
+        "followers": 4
+    },
+    {
+        "destination": "Peru",
+        "description": "An 8 days guided tour to the magnificent country of Peru. In the middle of the great Amazonas jungle, the Machu Pichu and more.",
+        "image": "https://www.inkayniperutours.com/blog/wp-content/uploads/2019/12/machu-Picchu.jpg",
+        "start_date": "2021-03-09T22:00:00.000Z",
+        "end_date": "2020-03-23T22:00:00.000Z",
+        "price": 1900,
+        "followers": 2
+    },
+    {
+        "destination": "Israel",
+        "description": "The Holy Land",
+        "image": "https://wallpaperaccess.com/full/1127825.jpg",
+        "start_date": "2020-10-13T21:00:00.000Z",
+        "end_date": "2020-10-20T21:00:00.000Z",
+        "price": 560,
+        "followers": 0
+    },
+    {
+        "destination": "Australia",
+        "description": "Kangaroos and stuff",
+        "image": "https://i.pinimg.com/originals/2e/23/5e/2e235eb444238d7e8f620c332e798dcc.jpg",
+        "start_date": "2021-01-10T22:00:00.000Z",
+        "end_date": "2021-01-24T22:00:00.000Z",
+        "price": 1600,
+        "followers": 0
+    },
+    {
+        "destination": "Faroe Islands",
+        "description": "yes yes",
+        "image": "https://free4kwallpapers.com/uploads/originals/2016/02/12/lake-s%C3%B8rv%C3%A1gsvatn-faroe-islands-wallpaper.jpg",
+        "start_date": "2021-01-07T22:00:00.000Z",
+        "end_date": "2021-01-21T22:00:00.000Z",
+        "price": 1000,
+        "followers": 0
+    },
+    {
+        "destination": "Russia",
+        "description": "Da Da",
+        "image": "https://c4.wallpaperflare.com/wallpaper/889/689/149/moscow-red-square-city-landscape-wallpaper-preview.jpg",
+        "start_date": "2021-01-07T22:00:00.000Z",
+        "end_date": "2021-01-21T22:00:00.000Z",
+        "price": 630,
+        "followers": 0
+    }
+]
