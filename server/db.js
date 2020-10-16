@@ -4,17 +4,17 @@ const db = mysql.createPool({
     host: "us-cdbr-east-02.cleardb.com",
     user: "b360f36862cedc",
     password: "539c17bb",
-    database: "heroku_693f8cf2c9f86d5",
-    insecureAuth: true
+    database: "heroku_693f8cf2c9f86d5"
+    // insecureAuth: true
 })
 
-db.connect(err => {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log("db connected");
-    }
-})
+// db.connect(err => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log("db connected");
+//     }
+// })
 
 const Query = (q, params) => {
     return new Promise((resolve, reject) => {
