@@ -32,19 +32,19 @@ function App() {
       <Router>
         <Navigation setSearchMode={setSearchMode} />
         <Route exact path="/">
-          <Redirect to="/vacations" />
+          <Redirect to="/home" />
         </Route>
-        <Route path="/vacations">
+        <Route path="/home">
           {user.isLogin ? (<Vacations isSearchMode={searchMode} />) : (<PublicHomePage />)}
         </Route>
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/profile">
-          {user.isLogin ? <Profile /> : <Redirect to="/vacations" />}
+          {user.isLogin ? <Profile /> : <Redirect to="/home" />}
         </Route>
         <Route path="/wishlist" component={WishList} />
         <Route path="/reports">
-          {user.role === "admin" ? <Reports /> : <Redirect to="/vacations" />}
+          {user.role === "admin" ? <Reports /> : <Redirect to="/home" />}
         </Route>
       </Router>
     </MuiThemeProvider>

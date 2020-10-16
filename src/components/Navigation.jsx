@@ -108,7 +108,7 @@ export default function Navigation({ setSearchMode }) {
             }
             try {
                 setSearchMode(true);
-                history.push("/vacations");
+                history.push("/home");
                 let res = await fetch(`http://localhost:1000/vacations/search`, {
                     method: "PUT",
                     headers: { "content-type": "application/json", "Authorization": localStorage.token },
