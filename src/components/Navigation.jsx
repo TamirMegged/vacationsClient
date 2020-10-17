@@ -90,8 +90,9 @@ export default function Navigation({ setSearchMode }) {
     const handleLogout = () => {
         try {
             dispatch({ type: "LOGOUT" });
-            history.push("/");
+            setSearchMode(false);
             setDrawerOpen(false);
+            history.push("/");
         } catch (err) {
 
         }
@@ -188,7 +189,10 @@ export default function Navigation({ setSearchMode }) {
                             </IconButton>
                             <Typography variant="h6" noWrap>Hello {user.first_name}</Typography>
                             <IconButton color="inherit" title="Go to my account"
-                                onClick={() => { history.push("/profile") }}>
+                                onClick={() => {
+                                    history.push("/profile");
+                                    setSearchMode(false);
+                                }}>
                                 <AccountCircle />
                             </IconButton>
                         </>
@@ -217,6 +221,7 @@ export default function Navigation({ setSearchMode }) {
                         {user.role === "user" ?
                             (<ListItem button onClick={() => {
                                 history.push('/wishlist');
+                                setSearchMode(false);
                                 setDrawerOpen(false);
                             }}>
                                 <ListItemIcon>
@@ -227,6 +232,7 @@ export default function Navigation({ setSearchMode }) {
                         {user.role === "admin" ? (
                             <ListItem button onClick={() => {
                                 history.push('/reports');
+                                setSearchMode(false);
                                 setDrawerOpen(false);
                             }}>
                                 <ListItemIcon>
@@ -236,6 +242,7 @@ export default function Navigation({ setSearchMode }) {
                             </ListItem>) : null}
                         <ListItem button onClick={() => {
                             history.push('/profile');
+                            setSearchMode(false);
                             setDrawerOpen(false);
                         }}>
                             <ListItemIcon>
