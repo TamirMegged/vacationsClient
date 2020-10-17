@@ -107,7 +107,6 @@ export default function Navigation({ setSearchMode }) {
                 }
             }
             try {
-                setSearchMode(true);
                 history.push("/home");
                 let res = await fetch(`https://tamirflyaway.herokuapp.com/vacations/search`, {
                     method: "PUT",
@@ -121,6 +120,7 @@ export default function Navigation({ setSearchMode }) {
                 } else {
                     setAlertOpen(false);
                     dispatch({ type: "LOAD", payload: data });
+                    setSearchMode(true);
                 }
             } catch (err) {
 
