@@ -145,7 +145,7 @@ export default function Navigation({ setSearchMode }) {
                                 <IconButton color="inherit" size="small" className={classes.searchIcon}>
                                     <FlightTakeoffIcon />
                                 </IconButton>
-                                <InputBase type="date"
+                                <InputBase type="date" value={start_limit}
                                     onChange={e => setStart_limit(moment(e.target.value).format("yyyy-MM-DD"))} classes={{
                                         root: classes.inputRoot,
                                         input: classes.inputInput,
@@ -155,7 +155,7 @@ export default function Navigation({ setSearchMode }) {
                                 <IconButton color="inherit" size="small" className={classes.searchIcon}>
                                     <FlightLandIcon />
                                 </IconButton>
-                                <InputBase type="date"
+                                <InputBase type="date" value={end_limit}
                                     onChange={e => setEnd_limit(moment(e.target.value).format("yyyy-MM-DD"))} classes={{
                                         root: classes.inputRoot,
                                         input: classes.inputInput,
@@ -166,7 +166,7 @@ export default function Navigation({ setSearchMode }) {
                                     <PlaceIcon />
                                 </div>
                                 <InputBase placeholder="Search" title="Insert destination or part of description"
-                                    onChange={e => setSearchContent(e.target.value)} classes={{
+                                    value={searchContent} onChange={e => setSearchContent(e.target.value)} classes={{
                                         root: classes.inputRoot,
                                         input: classes.inputInput,
                                     }}
@@ -177,6 +177,9 @@ export default function Navigation({ setSearchMode }) {
                             </IconButton>
                             <IconButton color="inherit" title="Clear search - Back to all vacations" style={{ marginRight: "2vw" }}
                                 onClick={() => {
+                                    setSearchContent("");
+                                    setStart_limit("");
+                                    setEnd_limit("");
                                     setAlertOpen(false);
                                     setSearchMode(false);
                                     history.push("/");
