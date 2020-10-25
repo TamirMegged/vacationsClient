@@ -39,6 +39,7 @@ export const user = (state = initialUser, action) => {
             return newState;
         // {type:"LOGOUT"}
         case "LOGOUT":
+            localStorage.removeItem("token");
             return initialUser;
         default:
             return state;
